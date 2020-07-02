@@ -6,3 +6,54 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+body{
+    font-family: Georgia, serif;
+    color: #926239;
+    line-height: 1.6;
+}
+#showcase{
+    background-image: url(../img/main-bg.webp);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+#showcase h1{
+    font-size: 3rem;
+    line-height: 1.2;
+    text-shadow: 2px 2px 3px #000;
+}
+#showcase h1 span{
+    background-color: #002400;
+    padding: 0 50px;
+    border: 2px solid #926239;
+    border-radius: 20px;
+}
+#showcase p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 20px 0;
+    text-shadow: 2px 2px 3px #000;
+}
+#showcase .button{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #002400;
+    background-color: #926239;
+    border: 2px solid #002400;
+    border-radius: 20px;
+    padding: 5px 30px;
+    transition: all .3s;
+}
+#showcase .button:hover{
+    color: #926239;
+    background-color: #002400;
+    border: 2px solid #926239;
+}
