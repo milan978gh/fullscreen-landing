@@ -57,3 +57,20 @@ body{
     background-color: #002400;
     border: 2px solid #926239;
 }
+
+/* section */
+#section{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+}
+#section .box-1, .box-2, .box-3{
+    margin: auto auto;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+#section .box-1, .box-3{
+    background-color: #002400;
+}
